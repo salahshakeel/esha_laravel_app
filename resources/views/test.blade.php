@@ -16,6 +16,7 @@ tr:nth-child(even) {
 }
 </style>
 
+Add new employee
 
 <form method="POST" action="{{ route('test.store') }}">
     @csrf 
@@ -25,7 +26,7 @@ tr:nth-child(even) {
     <button type="submit">Submit</button>
 </form>
 
-
+List of employees
 
 <table>
   <tr>
